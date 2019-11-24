@@ -1,11 +1,6 @@
 import { action, thunk } from 'easy-peasy'
+import common from './common'
 
 export default {
-  num: 0,
-  add: action (state => {
-    state.num  = state.num + 1
-  }),
-  minus: action (state => {
-    state.num = state.num - 1
-  })
+  common
 }
