@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel serve public/index.html",
-    "build": "rm -rf ./dist && parcel build public/index.html --public-url ./dist/"
+    "build": "rm -rf ./dist && parcel build public/index.html --public-url /"
   },
   "repository": "git@github.com:laclys/parcelAndEasyPeasy.git",
   "homepage": "https://lac.github.io/parcelEasyPeasy",
