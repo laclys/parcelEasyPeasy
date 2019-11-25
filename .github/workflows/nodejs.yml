@@ -1,4 +1,4 @@
-name: parcel-easy-peasy
+name: parcel-easy-peasy Demo
 on:
   push:
     branches:
