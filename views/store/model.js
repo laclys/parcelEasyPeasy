@@ -1,6 +1,7 @@
-import { action, thunk } from 'easy-peasy'
 import common from './common'
+import trans from './trans'
 
 export default {
-  common
+  common,
+  trans
 }
