@@ -1,2 +1,2 @@
 ### parcel-easy-peasy
-- react-hook + easy-peasy simple demo
+- parcel + react-hook + easy-peasy simple demo
