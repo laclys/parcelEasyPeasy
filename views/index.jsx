@@ -8,6 +8,7 @@ import Wrapper from './Components/Wrapper'
 import CompA from './Components/CompA'
 import CompB from './Components/CompB'
 import CompC from './Components/CompC'
+import CompD from './Components/CompD'
 
 const store = createStore(model)
 
@@ -18,6 +19,7 @@ export default function App () {
         <CompA />
         <CompB />
         <CompC />
+        <CompD />
       </Wrapper>
     </StoreProvider>
   )
