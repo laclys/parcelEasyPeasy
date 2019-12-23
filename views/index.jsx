@@ -9,6 +9,7 @@ import CompA from './Components/CompA'
 import CompB from './Components/CompB'
 import CompC from './Components/CompC'
 import CompD from './Components/CompD'
+import CompE from './Components/CompE'
 
 const store = createStore(model)
 
@@ -20,6 +21,7 @@ export default function App () {
         <CompB />
         <CompC />
         <CompD />
+        <CompE />
       </Wrapper>
     </StoreProvider>
   )
