@@ -37,7 +37,7 @@ function useFetch (fetch, params, visible = true) {
 }
 
 export default function CompE() {
-  const { data, reFetch } = useFetch(getSsq, { code: "ssq" })
+  const { data, reFetch, loading } = useFetch(getSsq, { code: "ssq" })
 
   return (<div className={cx(styles.container, 'card')}>
     <h3 className='title' >CompE</h3>
